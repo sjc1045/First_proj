@@ -1,5 +1,6 @@
 The purpose of this project is to analyze the contents of any text file.
 This program has a series of functions that can be utilized by entering a simple command line argument
+
 1: copy (1 file.txt file2.txt)
   - copies contents from file1 to file2
 2: interleave (2 file1.txt file2.txt file3.txt)
