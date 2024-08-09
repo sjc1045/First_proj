@@ -1,0 +1,36 @@
+Files in this directory:
+Q_and_A.txt: this file
+p1_0.c: code template from the project description
+p1_0.out: compiled code of p1_0.c
+cut.txt, error.txt, gringotts.txt: three sample input files
+
+p1_1.out: sample executable for stage 1 submission
+grading_1.run: some test cases for command line argument testing
+
+p1_2.out: sample executable for stage 2 submission
+
+p1.out: sample executable for the entire project 1
+grading_2.run: some test cases for the options of the project
+anthem.txt, independence.txt: two more sample input files
+********************************************
+Sat Mar  9 15:25:08 EST 2024
+Q5. For the three longest words, do I have to print them out, the longest,
+        the second longest, and the third longest, in that order?
+A5. The project description only says "The top three longest words", so you
+        can print them out in any order. In addition, if there is a tie, you
+        can break the tie anyway you like.
+
+Sat Mar  9 15:08:26 EST 2024
+Q4. If there is a blank line in the file, will that line be considered the
+        shortest?
+A4. Yes. That will be the shortest (or one of the shortest). An empty line
+        has 1 character ('\n') and 0 word.
+
+Thu Feb 29 10:10:34 EST 2024
+Q3. For the simulated grep command, if someone inputs a string such as 'in'
+        should the program only output the lines that have the word 'in'
+        or anything with the string 'in' such as a line like "anything
+        is possible"?
+A3. It is the latter case. Any line that has a substring matches the input
+        string should be printed out.
+    If a line has multiple matches, that line should be printed out only once.
